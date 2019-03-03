@@ -68,7 +68,17 @@ body{
     animation-iteration-count: infinite; */
 }
 
-@keyframes dlc-0-to-25{ 
+@keyframes lc-0-to-0{ 
+    from{
+        left: 15px;
+        top: 25px;
+    }
+    to{
+        left: calc(100% - 65px);
+    }
+}
+
+@keyframes lc-0-to-25{ 
     from{
         left: 15px;
         top: 25px;
@@ -79,7 +89,7 @@ body{
     }
 }
 
-@keyframes dlc-0-to-50{ 
+@keyframes lc-0-to-50{ 
     from{
         left: 15px;
         top: 25px;
@@ -90,7 +100,7 @@ body{
     }
 }
 
-@keyframes dlc-0-to-75{
+@keyframes lc-0-to-75{
     from{
         left: 15px;
         top: 25px;
@@ -101,7 +111,7 @@ body{
     }
 }
 
-@keyframes dlc-0-to-100{
+@keyframes lc-0-to-100{
     from{
         left: 15px;
         top: 25px;
@@ -112,163 +122,10 @@ body{
     }
 }
 
-@keyframes dlc-25-to-50{
+@keyframes lc-25-to-0{
     from{
         left: 15px;
         top: calc(25% - 25px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(50% - 25px);
-    }
-}
-
-@keyframes dlc-25-to-75{
-    from{
-        left: 15px;
-        top: calc(25% - 25px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(75% - 25px);
-    }
-}
-
-@keyframes dlc-25-to-100{
-    from{
-        left: 15px;
-        top: calc(25% - 25px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(100% - 75px);
-    }
-}
-
-@keyframes dlc-50-to-75{
-    from{
-        left: 15px;
-        top: calc(50% - 25px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(75% - 25px);
-    }
-}
-
-@keyframes dlc-50-to-100{
-    from{
-        left: 15px;
-        top: calc(50% - 25px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(100% - 75px);
-    }
-}
-
-@keyframes dlc-75-to-100{
-    from{
-        left: 15px;
-        top: calc(75% - 25px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(100% - 75px);
-    }
-}
-
-@keyframes mlc-0-to-0{ 
-    from{
-        left: 15px;
-        top: 25px;
-    }
-    to{
-        left: calc(100% - 65px);
-    }
-}
-
-@keyframes mlc-25-to-25{
-    from{
-        left: 15px;
-        top: calc(25% - 25px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(25% - 25px);
-    }
-}
-
-@keyframes mlc-50-to-50{
-    from{
-        left: 15px;
-        top: calc(50% - 25px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(50% - 25px);
-    }
-}
-
-@keyframes mlc-75-to-75{
-    from{
-        left: 15px;
-        top: calc(75% - 25px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(75% - 25px);
-    }
-}
-
-@keyframes mlc-100-to-100{
-    from{
-        left: 15px;
-        top: calc(100% - 75px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(100% - 75px);
-    }
-}
-
-@keyframes ulc-100-to-75{
-    from{
-        left: 15px;
-        top: calc(100% - 75px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(75% - 25px);
-    }
-}
-
-@keyframes ulc-100-to-50{
-    from{
-        left: 15px;
-        top: calc(100% - 75px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(50% - 25px);
-    }
-}
-
-@keyframes ulc-100-to-25{
-    from{
-        left: 15px;
-        top: calc(100% - 75px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: calc(25% - 25px);
-    }
-}
-
-@keyframes ulc-100-to-0{
-    from{
-        left: 15px;
-        top: calc(100% - 75px);
     }
     to{
         left: calc(100% - 65px);
@@ -276,7 +133,128 @@ body{
     }
 }
 
-@keyframes ulc-75-to-50{
+@keyframes lc-25-to-25{
+    from{
+        left: 15px;
+        top: calc(25% - 25px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: calc(25% - 25px);
+    }
+}
+
+@keyframes lc-25-to-50{
+    from{
+        left: 15px;
+        top: calc(25% - 25px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: calc(50% - 25px);
+    }
+}
+
+@keyframes lc-25-to-75{
+    from{
+        left: 15px;
+        top: calc(25% - 25px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: calc(75% - 25px);
+    }
+}
+
+@keyframes lc-25-to-100{
+    from{
+        left: 15px;
+        top: calc(25% - 25px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: calc(100% - 75px);
+    }
+}
+
+@keyframes lc-50-to-0{
+    from{
+        left: 15px;
+        top: calc(50% - 25px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: 25px;
+    }
+}
+
+@keyframes lc-50-to-25{
+    from{
+        left: 15px;
+        top: calc(50% - 25px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: calc(25% - 25px);
+    }
+}
+
+@keyframes lc-50-to-50{
+    from{
+        left: 15px;
+        top: calc(50% - 25px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: calc(50% - 25px);
+    }
+}
+
+@keyframes lc-50-to-75{
+    from{
+        left: 15px;
+        top: calc(50% - 25px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: calc(75% - 25px);
+    }
+}
+
+@keyframes lc-50-to-100{
+    from{
+        left: 15px;
+        top: calc(50% - 25px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: calc(100% - 75px);
+    }
+}
+
+@keyframes lc-75-to-0{
+    from{
+        left: 15px;
+        top: calc(75% - 25px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: 25px;
+    }
+}
+
+@keyframes lc-75-to-25{
+    from{
+        left: 15px;
+        top: calc(75% - 25px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: calc(25% - 25px);
+    }
+}
+
+@keyframes lc-75-to-50{
     from{       
         left: 15px;
         top: calc(75% - 25px);
@@ -287,32 +265,65 @@ body{
     }
 }
 
-@keyframes ulc-75-to-25{
+@keyframes lc-75-to-75{
     from{
         left: 15px;
         top: calc(75% - 25px);
     }
     to{
         left: calc(100% - 65px);
-        top: calc(25% - 25px);
+        top: calc(75% - 25px);
     }
 }
 
-@keyframes ulc-75-to-0{
+@keyframes lc-75-to-100{
     from{
         left: 15px;
         top: calc(75% - 25px);
     }
     to{
         left: calc(100% - 65px);
-        top: 25px;
+        top: calc(100% - 75px);
     }
 }
 
-@keyframes ulc-50-to-25{
+@keyframes lc-100-to-100{
     from{
         left: 15px;
+        top: calc(100% - 75px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: calc(100% - 75px);
+    }
+}
+
+@keyframes lc-100-to-75{
+    from{
+        left: 15px;
+        top: calc(100% - 75px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: calc(75% - 25px);
+    }
+}
+
+@keyframes lc-100-to-50{
+    from{
+        left: 15px;
+        top: calc(100% - 75px);
+    }
+    to{
+        left: calc(100% - 65px);
         top: calc(50% - 25px);
+    }
+}
+
+@keyframes lc-100-to-25{
+    from{
+        left: 15px;
+        top: calc(100% - 75px);
     }
     to{
         left: calc(100% - 65px);
@@ -320,39 +331,84 @@ body{
     }
 }
 
-@keyframes ulc-50-to-0{
+@keyframes lc-100-to-0{
     from{
+        left: 15px;
+        top: calc(100% - 75px);
+    }
+    to{
+        left: calc(100% - 65px);
+        top: 25px;
+    }
+}
+
+@keyframes rc-0-to-0{ 
+    from{
+        left: calc(100% - 65px);
+        top: 25px;
+    }
+    to{
+        left: 15px;
+    }
+}
+
+
+@keyframes rc-0-to-25{ 
+    from{
+        left: calc(100% - 65px);
+        top: 25px;
+    }
+    to{
+        left: 15px;
+        top: calc(25% - 25px);
+    }
+}
+
+@keyframes rc-0-to-50{ 
+    from{
+        top: 25px;
+        left: calc(100% - 65px);
+    }
+    to{
         left: 15px;
         top: calc(50% - 25px);
     }
-    to{
-        left: calc(100% - 65px);
-        top: 25px;
-    }
 }
 
-@keyframes ulc-25-to-0{
-    from{
-        left: 15px;
-        top: calc(20% - 25px);
-    }
-    to{
-        left: calc(100% - 65px);
-        top: 25px;
-    }
-}
-
-@keyframes mrc-0-to-0{ 
+@keyframes rc-0-to-75{
     from{
         left: calc(100% - 65px);
         top: 25px;
     }
     to{
         left: 15px;
+        top: calc(75% - 25px);
     }
 }
 
-@keyframes mrc-25-to-25{
+@keyframes rc-0-to-100{
+    from{
+        left: calc(100% - 65px);
+        top: 25px;
+    }
+    to{
+        left: 15px;
+        top: calc(100% - 75px);
+    }
+}
+
+@keyframes rc-25-to-0{
+    from{
+        left: calc(100% - 65px);
+        top: calc(25% - 25px);
+    }
+    to{
+        left: 15px;
+        top: 25px;
+    }
+}
+
+@keyframes rc-25-to-25{
     from{
         left: calc(100% - 65px);
         top: calc(25% - 25px);
@@ -363,7 +419,62 @@ body{
     }
 }
 
-@keyframes mrc-50-to-50{
+@keyframes rc-25-to-50{
+    from{
+        left: calc(100% - 65px);
+        top: calc(25% - 25px);
+    }
+    to{
+        left: 15px;
+        top: calc(50% - 25px);
+    }
+}
+
+@keyframes rc-25-to-75{
+    from{
+        left: calc(100% - 65px);
+        top: calc(25% - 25px);
+    }
+    to{
+        left: 15px;
+        top: calc(75% - 25px);
+    }
+}
+
+@keyframes rc-25-to-100{
+    from{
+        left: calc(100% - 65px);
+        top: calc(25% - 25px);
+    }
+    to{
+        left: 15px;
+        top: calc(100% - 75px);
+    }
+}
+
+@keyframes rc-50-to-0{
+    from{
+        left: calc(100% - 65px);
+        top: calc(50% - 25px);
+    }
+    to{
+        left: 15px;
+        top: 25px;
+    }
+}
+
+@keyframes rc-50-to-25{
+    from{
+        left: calc(100% - 65px);
+        top: calc(50% - 25px);
+    }
+    to{
+        left: 15px;
+        top: calc(25% - 25px);
+    }
+}
+
+@keyframes rc-50-to-50{
     from{
         left: calc(100% - 65px);
         top: calc(50% - 25px);
@@ -374,7 +485,62 @@ body{
     }
 }
 
-@keyframes mrc-75-to-75{
+@keyframes rc-50-to-75{
+    from{
+        left: calc(100% - 65px);
+        top: calc(50% - 25px);
+    }
+    to{
+        left: 15px;
+        top: calc(75% - 25px);
+    }
+}
+
+@keyframes rc-50-to-100{
+    from{
+        left: calc(100% - 65px);
+        top: calc(50% - 25px);
+    }
+    to{
+        left: 15px;
+        top: calc(100% - 75px);
+    }
+}
+
+@keyframes rc-75-to-0{
+    from{
+        left: calc(100% - 65px);
+        top: calc(75% - 25px);
+    }
+    to{
+        left: 15px;
+        top: 25px;
+    }
+}
+
+@keyframes rc-75-to-25{
+    from{
+        left: calc(100% - 65px);
+        top: calc(75% - 25px);
+    }
+    to{
+        left: 15px;
+        top: calc(25% - 25px);
+    }
+}
+
+@keyframes rc-75-to-50{
+    from{       
+        left: calc(100% - 65px);
+        top: calc(75% - 25px);
+    }
+    to{
+        left: 15px;
+        top: calc(50% - 25px);
+    }
+}
+
+@keyframes rc-75-to-75{
     from{
         left: calc(100% - 65px);
         top: calc(75% - 25px);
@@ -385,117 +551,7 @@ body{
     }
 }
 
-@keyframes mrc-100-to-100{
-    from{
-        left: calc(100% - 65px);
-        top: calc(100% - 75px);
-    }
-    to{
-        left: 15px;
-        top: calc(100% - 75px);
-    }
-}
-
-@keyframes drc-0-to-25{ 
-    from{
-        left: calc(100% - 65px);
-        top: 25px;
-    }
-    to{
-        left: 15px;
-        top: calc(25% - 25px);
-    }
-}
-
-@keyframes drc-0-to-50{ 
-    from{
-        top: 25px;
-        left: calc(100% - 65px);
-    }
-    to{
-        left: 15px;
-        top: calc(50% - 25px);
-    }
-}
-
-@keyframes drc-0-to-75{
-    from{
-        left: calc(100% - 65px);
-        top: 25px;
-    }
-    to{
-        left: 15px;
-        top: calc(75% - 25px);
-    }
-}
-
-@keyframes drc-0-to-100{
-    from{
-        left: calc(100% - 65px);
-        top: 25px;
-    }
-    to{
-        left: 15px;
-        top: calc(100% - 75px);
-    }
-}
-
-@keyframes drc-25-to-50{
-    from{
-        left: calc(100% - 65px);
-        top: calc(25% - 25px);
-    }
-    to{
-        left: 15px;
-        top: calc(50% - 25px);
-    }
-}
-
-@keyframes drc-25-to-75{
-    from{
-        left: calc(100% - 65px);
-        top: calc(25% - 25px);
-    }
-    to{
-        left: 15px;
-        top: calc(75% - 25px);
-    }
-}
-
-@keyframes drc-25-to-100{
-    from{
-        left: calc(100% - 65px);
-        top: calc(25% - 25px);
-    }
-    to{
-        left: 15px;
-        top: calc(100% - 75px);
-    }
-}
-
-@keyframes drc-50-to-75{
-    from{
-        left: calc(100% - 65px);
-        top: calc(50% - 25px);
-    }
-    to{
-        left: 15px;
-        top: calc(75% - 25px);
-    }
-}
-
-@keyframes drc-50-to-100{
-    from{
-        left: calc(100% - 65px);
-        top: calc(50% - 25px);
-    }
-    to{
-        left: 15px;
-        top: calc(100% - 75px);
-    }
-}
-
-@keyframes drc-75-to-100{
+@keyframes rc-75-to-100{
     from{
         left: calc(100% - 65px);
         top: calc(75% - 25px);
@@ -506,7 +562,18 @@ body{
     }
 }
 
-@keyframes urc-100-to-75{
+@keyframes rc-100-to-100{
+    from{
+        left: calc(100% - 65px);
+        top: calc(100% - 75px);
+    }
+    to{
+        left: 15px;
+        top: calc(100% - 75px);
+    }
+}
+
+@keyframes rc-100-to-75{
     from{
         left: calc(100% - 65px);
         top: calc(100% - 75px);
@@ -517,7 +584,7 @@ body{
     }
 }
 
-@keyframes urc-100-to-50{
+@keyframes rc-100-to-50{
     from{
         left: calc(100% - 65px);
         top: calc(100% - 75px);
@@ -528,7 +595,7 @@ body{
     }
 }
 
-@keyframes urc-100-to-25{
+@keyframes rc-100-to-25{
     from{
         left: calc(100% - 65px);
         top: calc(100% - 75px);
@@ -539,76 +606,10 @@ body{
     }
 }
 
-@keyframes urc-100-to-0{
+@keyframes rc-100-to-0{
     from{
         left: calc(100% - 65px);
         top: calc(100% - 75px);
-    }
-    to{
-        left: 15px;
-        top: 25px;
-    }
-}
-
-@keyframes urc-75-to-50{
-    from{       
-        left: calc(100% - 65px);
-        top: calc(75% - 25px);
-    }
-    to{
-        left: 15px;
-        top: calc(50% - 25px);
-    }
-}
-
-@keyframes urc-75-to-25{
-    from{
-        left: calc(100% - 65px);
-        top: calc(75% - 25px);
-    }
-    to{
-        left: 15px;
-        top: calc(25% - 25px);
-    }
-}
-
-@keyframes urc-75-to-0{
-    from{
-        left: calc(100% - 65px);
-        top: calc(75% - 25px);
-    }
-    to{
-        left: 15px;
-        top: 25px;
-    }
-}
-
-@keyframes urc-50-to-25{
-    from{
-        left: calc(100% - 65px);
-        top: calc(50% - 25px);
-    }
-    to{
-        left: 15px;
-        top: calc(25% - 25px);
-    }
-}
-
-@keyframes urc-50-to-0{
-    from{
-        left: calc(100% - 65px);
-        top: calc(50% - 25px);
-    }
-    to{
-        left: 15px;
-        top: 25px;
-    }
-}
-
-@keyframes urc-25-to-0{
-    from{
-        left: calc(100% - 65px);
-        top: calc(20% - 25px);
     }
     to{
         left: 15px;
